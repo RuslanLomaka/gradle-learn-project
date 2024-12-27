@@ -8,7 +8,7 @@ version = "1.0-SNAPSHOT"
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "App"
+        attributes["Main-Class"] = "DApp"
     }
     archiveBaseName.set("myname")
     archiveVersion.set("")
